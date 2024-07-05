@@ -1,0 +1,107 @@
+.content {
+    margin-top: 136px; /* Espacio para navbar y search bar */
+}
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card-img-top {
+    height: 250px;
+    width: 250px;
+    align-self: center;
+    object-fit: cover;
+}
+.carousel-control-prev, .carousel-control-next {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    color: #ffffff;
+}
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: background-color 0.3s;
+}
+.carousel-control-prev:focus, .carousel-control-next:focus {
+    outline: none;
+    box-shadow: none;
+}
+.carousel-control-prev {
+    left: -5rem;
+}
+.carousel-control-next {
+    right: -5rem;
+}
+
+.mb-4, .my-4 {
+    margin-top: 2rem;
+}
+
+
+.btn {
+    margin-right: auto; /* Empuja el botón hacia el inicio del contenedor */
+}
+
+.button-stars {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .card-img-top {
+        height: 10rem;
+        width: 10rem;
+        align-self: center;
+        object-fit: cover;
+    }
+
+    .content h2 {
+        margin-top: 35%;
+    }
+
+    .btn {
+        margin-right: auto; /* Empuja el botón hacia el inicio del contenedor */
+    }
+    
+    .button-stars {
+        gap: 1px;
+        align-content: flex-end;
+    }
+
+    .card img{
+        width: 114.4px;
+        height: 114.4px;
+    }
+    
+}
+
+@media (max-width: 810px) {
+
+    .card-img-top {
+        height: 55%;
+        width: 55%;
+        align-self: center;
+        object-fit: cover;
+    }
+    
+
+
+    .mobile-hidden {
+        display: none;
+    }
+
+    .search-bar .input-group {
+        width: 95%;
+    }
+}
