@@ -1,19 +1,23 @@
 .content {
-    margin-top: 136px; /* Espacio para navbar y search bar */
+    margin-top: 136px;
 }
+
 .card {
     transition: transform 0.2s, box-shadow 0.2s;
 }
+
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
 .card-img-top {
     height: 250px;
     width: 250px;
     align-self: center;
     object-fit: cover;
 }
+
 .carousel-control-prev, .carousel-control-next {
     width: 50px;
     height: 50px;
@@ -24,20 +28,25 @@
     position: absolute;
     top: 50%;
 }
+
 .carousel-control-prev-icon, .carousel-control-next-icon {
     color: #ffffff;
 }
+
 .carousel-control-prev:hover, .carousel-control-next:hover {
     background-color: rgba(0, 0, 0, 0.7);
     transition: background-color 0.3s;
 }
+
 .carousel-control-prev:focus, .carousel-control-next:focus {
     outline: none;
     box-shadow: none;
 }
+
 .carousel-control-prev {
     left: -5rem;
 }
+
 .carousel-control-next {
     right: -5rem;
 }
@@ -48,7 +57,7 @@
 
 
 .btn {
-    margin-right: auto; /* Empuja el botón hacia el inicio del contenedor */
+    margin-right: auto;
 }
 
 .button-stars {
@@ -83,19 +92,15 @@
         width: 114.4px;
         height: 114.4px;
     }
-    
 }
 
 @media (max-width: 810px) {
-
     .card-img-top {
         height: 55%;
         width: 55%;
         align-self: center;
         object-fit: cover;
     }
-    
-
 
     .mobile-hidden {
         display: none;

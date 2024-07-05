@@ -30,8 +30,6 @@
   margin-top: -3.1rem;
   background-color: #FFF;
 }
-    
-
 
 .row {
   position: relative;
@@ -69,13 +67,13 @@
 
 .card-title, .card-text {
   white-space: nowrap;
-  overflow: hidden; /* Para ocultar el contenido que se desborda */
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .background {
-  background-color: yellow; /* Color de fondo amarillo */
-  padding: 20px; /* Ajusta el padding según sea necesario */
+  background-color: yellow;
+  padding-top: 20px;
 }
 
 .content h2 {

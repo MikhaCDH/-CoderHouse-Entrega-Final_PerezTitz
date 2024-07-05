@@ -78,8 +78,6 @@ h2 {
         text-decoration: underline;
     }
     }
-
-    
 }
 
 .footer {
@@ -114,7 +112,7 @@ h2 {
 
 .card-title, .card-text {
     white-space: nowrap;
-    overflow: hidden; /* Para ocultar el contenido que se desborda */
+    overflow: hidden;
     text-overflow: ellipsis;
 }
 
@@ -180,13 +178,12 @@ h2 {
 
 .navbar-toggler {
     position: absolute;
-    top: 50%; /* Centra verticalmente */
-    left: 30%; /* Centra horizontalmente */
-    transform: translate(-100%, -50%); /* Ajusta la posición exacta al centro */
+    top: 50%;
+    left: 30%;
+    transform: translate(-100%, -50%);
 }
 
 @media (max-width: 990px) {
-
     .buscar {
         margin-left: 0;
     }
@@ -221,12 +218,10 @@ h2 {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-
 .card:hover, .card:focus {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
-
 
 .card-title {
     font-size: 1.25rem;
