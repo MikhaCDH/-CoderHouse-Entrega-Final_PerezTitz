@@ -11,6 +11,17 @@ h2:hover {
   color: #007bff;
 }
 
+.background {
+  background-color: yellow;
+  padding-top: 20px;
+  background: radial-gradient(circle, #84fab0, #8fd3f4);
+}
+
+.nav-link span {
+  background-color: #2c2d36;
+  border-radius: 5px;
+}
+
 .content h2 {
   font-weight: bold;
   margin-top: 11.5rem;
@@ -103,6 +114,7 @@ h2:hover {
 .iconos-nav {
   display: flex;
   text-align: center;
+  justify-content: center;
 }
 
 .card-title, .card-text {
@@ -150,14 +162,14 @@ h2:hover {
   cursor: pointer;
 }
 
-.buscar:hover input {
-  width: 240px;
+@media (min-width: 993px) {
+  .buscar:hover input {
+    width: 240px;
+  }
+  .buscar input:focus {
+    width: 240px;
+  }
 }
-
-.buscar input:focus {
-  width: 240px;
-}
-
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   color: rgba(0, 0, 0, 0.5);

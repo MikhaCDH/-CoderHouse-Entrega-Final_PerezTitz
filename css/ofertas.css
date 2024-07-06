@@ -29,6 +29,7 @@
 .products {
   margin-top: -3.1rem;
   background-color: #FFF;
+  border-radius: 10px;
 }
 
 .row {
@@ -69,11 +70,6 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-.background {
-  background-color: yellow;
-  padding-top: 20px;
 }
 
 .content h2 {
